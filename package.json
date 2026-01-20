@@ -1,11 +1,11 @@
 {
   "name": "issue-body-parser",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx @vercel/ncc@0.34.0 build index.js"
+    "build": "npx @vercel/ncc@0.38.3 build index.js"
   },
   "repository": {
     "type": "git",
@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/peter-murray/issue-body-parser#readme",
   "dependencies": {
-    "@actions/core": "^1.9.1",
-    "@actions/github": "^5.0.3",
-    "yaml": "^2.1.1"
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0",
+    "yaml": "^2.2.0"
   }
 }
